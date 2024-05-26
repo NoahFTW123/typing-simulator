@@ -23,7 +23,7 @@ Instructions for using the software:
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* You will node installed on your computer.
+* You will need node installed on your computer.
 * Install using node, firebase-admin, firebase, and express.
 * You will need to use the firebase console to create your own project and change the data in the firebase-config to have data be sent to your own project.
 
@@ -32,13 +32,10 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [Firebase Docs](https://firebase.google.com/docs)
-* [Jetbrains Academy - Kotlin](https://academy.jetbrains.com/?tag=Kotlin&_gl=1*1lzyqq2*_ga*NTk3NjM0NTIzLjE3MTUyMjI4ODM.*_ga_9J976DJZ68*MTcxNTQ0MzQyNy4yLjEuMTcxNTQ0MzQzNy4wLjAuMA..&_ga=2.134188621.2140073994.1715443428-597634523.1715222883&wizard=true)
-* [Tutorial on Kotlin Calculator](https://youtu.be/2hSHgungOKI?si=xKeeFDkB7qjbuhBy)
+* [Tutorial of Firebase using Node.js](https://youtu.be/8Se_F7c03UM?si=et4oNsGNuMH5amqo)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] Fix the trig functions. I want to make sure the calculator detects that a trig function is entered and is able to return the correct answer in radians.
-* [ ] Because the trig function isn't working, the multiple and divide buttons aren't working so i need to fix that too.
-* [ ] I want to add more possible functions like squaring or whatever you want to use an exponent or absolute values.
+* [ ] My one goal after this is to be able to connect data that the game has and send it to the firebase storage and be able to call the data again when a user log-ons and off.
